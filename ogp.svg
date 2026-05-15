@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">平戸崎方整骨院 OGP</title>
+  <desc id="desc">平戸市の整骨院、腰痛、肩こり、交通事故対応</desc>
+  <rect width="1200" height="630" fill="#f4fbff"/>
+  <rect x="74" y="70" width="1052" height="490" rx="28" fill="#fff" stroke="#d7e7f0" stroke-width="4"/>
+  <rect x="122" y="118" width="112" height="112" rx="24" fill="#2c948b"/>
+  <path d="M150 153h56v13h-20v14h18v13h-18v35h-16v-35h-18v-13h18v-14h-20z" fill="#fff"/>
+  <text x="122" y="305" fill="#075487" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="78" font-weight="800">平戸崎方整骨院</text>
+  <text x="122" y="390" fill="#123044" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="46" font-weight="700">平戸市 整骨院｜腰痛・肩こり・交通事故対応</text>
+  <text x="122" y="470" fill="#5d7282" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="34" font-weight="700">LINE予約・電話相談 0950-22-5632</text>
+</svg>
