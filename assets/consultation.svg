@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">親しみやすい問診イメージ</title>
+  <desc id="desc">施術者と患者さんが向かい合って話している、温かい手描きアニメ調の柔らかいイラスト</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#fff8ea"/>
+      <stop offset="1" stop-color="#e7f6f2"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" x2="1">
+      <stop stop-color="#2c948b"/>
+      <stop offset="1" stop-color="#77c6ba"/>
+    </linearGradient>
+    <filter id="softPaint" x="-4%" y="-4%" width="108%" height="108%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="8" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0"/>
+      <feBlend in="SourceGraphic" in2="noise" mode="soft-light"/>
+    </filter>
+  </defs>
+  <g filter="url(#softPaint)">
+  <rect width="720" height="520" rx="34" fill="url(#bg)"/>
+  <circle cx="595" cy="92" r="54" fill="#fff2dc"/>
+  <circle cx="102" cy="420" r="76" fill="#e7f6f2"/>
+  <path d="M72 118c82-70 172-91 270-64 82 23 152 10 209-39" fill="none" stroke="#ee9f3d" stroke-width="16" stroke-linecap="round" opacity=".18"/>
+  <path d="M112 414c80-52 163-64 248-34 96 34 178 12 247-66-10 95-76 154-199 177-111 21-210-5-296-77z" fill="url(#leaf)" opacity=".9"/>
+  <path d="M154 411c87 25 177 19 270-18 48-19 91-23 129-10-39 31-91 49-155 55-86 8-167-.5-244-27z" fill="#fff8ea" opacity=".9"/>
+  <g transform="translate(76 74)">
+    <rect x="92" y="230" width="408" height="126" rx="28" fill="#fff" stroke="#ead8bc" stroke-width="4"/>
+    <rect x="205" y="198" width="182" height="34" rx="17" fill="#ead8bc"/>
+    <g transform="translate(92 38)">
+      <circle cx="104" cy="96" r="48" fill="#ffd8ad"/>
+      <path d="M58 93c6-40 30-62 72-67 29 10 47 32 53 67-47 7-89 7-125 0z" fill="#ee9f3d"/>
+      <path d="M64 192c9-62 43-94 102-94 58 0 92 32 101 94z" fill="#2c948b"/>
+      <circle cx="88" cy="100" r="5" fill="#33261f"/>
+      <circle cx="124" cy="100" r="5" fill="#33261f"/>
+      <path d="M88 124c13 11 29 11 42 0" fill="none" stroke="#33261f" stroke-width="5" stroke-linecap="round"/>
+      <path d="M187 150c26 8 45 23 57 46" fill="none" stroke="#2c948b" stroke-width="16" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(338 46)">
+      <circle cx="98" cy="88" r="46" fill="#ffd8ad"/>
+      <path d="M48 91c5-45 32-67 81-67 30 10 49 33 54 67-47 8-92 8-135 0z" fill="#7bc8bc"/>
+      <path d="M39 190c8-60 40-91 97-91 57 0 90 31 98 91z" fill="#ee9f3d"/>
+      <circle cx="82" cy="95" r="5" fill="#33261f"/>
+      <circle cx="117" cy="95" r="5" fill="#33261f"/>
+      <path d="M82 119c12 10 28 10 40 0" fill="none" stroke="#33261f" stroke-width="5" stroke-linecap="round"/>
+      <path d="M21 149c-25 8-44 24-57 47" fill="none" stroke="#ee9f3d" stroke-width="16" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(246 58)">
+      <rect x="0" y="0" width="174" height="116" rx="24" fill="#fff" stroke="#ead8bc" stroke-width="4"/>
+      <path d="M34 36h96M34 63h70M34 90h112" stroke="#ee9f3d" stroke-width="10" stroke-linecap="round" opacity=".75"/>
+      <path d="M58 116l-22 30 50-30z" fill="#fff" stroke="#ead8bc" stroke-width="4" stroke-linejoin="round"/>
+    </g>
+  </g>
+  </g>
+</svg>
